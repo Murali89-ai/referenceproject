@@ -1,0 +1,252 @@
+
+{
+    "transactionsDetails": [
+        {
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "transactionId": "01961575-0e15-2cbf-34ea-76f6472c110d",
+            "endToEndId": "E23114447202504081251lJO202G3Pi4",
+            "transactionType": "DepositInstantPayment",
+            "transactionStatus": "APPROVED",
+            "totalAmount": 12,
+            "currentAmount": 12,
+            "counterPart": {
+                "name": "CONTA DE PAGAMENTO DE PIX"
+            },
+            "transactionDate": "2025-04-08T09:51:54.978-03:00",
+            "instantPayment": {
+                "sender": {
+                    "name": "CONTA DE PAGAMENTO DE PIX",
+                    "taxIdentifier": {
+                        "taxId": "74866698000169",
+                        "country": "BRA",
+                        "taxIdMasked": "74.***.***/****-69"
+                    },
+                    "account": {
+                        "branch": "1",
+                        "account": "12920",
+                        "accountType": "IP"
+                    },
+                    "psp": {
+                        "id": "23114447",
+                        "name": "FLAGSHIP IP LTDA",
+                        "country": "BRA"
+                    }
+                },
+                "recipient": {
+                    "alias": "a878f879-8acf-4d08-a8b4-c1bb640c9596",
+                    "name": "Jyoti Kumari",
+                    "taxIdentifier": {
+                        "taxId": "78739695840",
+                        "country": "BRA",
+                        "taxIdMasked": "***.396.958-**"
+                    },
+                    "account": {
+                        "branch": "272",
+                        "account": "475041",
+                        "accountType": "IP"
+                    },
+                    "psp": {
+                        "id": "23114447",
+                        "name": "FLAGSHIP IP LTDA",
+                        "country": "BRA"
+                    }
+                },
+                "endToEndId": "E23114447202504081251lJO202G3Pi4",
+                "paymentReceived": [
+                    {
+                        "sender": {
+                            "name": "CONTA DE PAGAMENTO DE PIX",
+                            "taxIdentifier": {
+                                "taxId": "74866698000169",
+                                "country": "BRA",
+                                "taxIdMasked": "74.***.***/****-69"
+                            },
+                            "account": {
+                                "branch": "1",
+                                "account": "12920",
+                                "accountType": "IP"
+                            },
+                            "psp": {
+                                "id": "23114447",
+                                "name": "FLAGSHIP IP LTDA",
+                                "country": "BRA",
+                                "currencies": [
+                                    "BRL"
+                                ]
+                            }
+                        },
+                        "transactionTimestamp": "1744116714978",
+                        "legacyTransactionId": "01961575-0e15-2cbf-34ea-76f6472c110d",
+                        "endToEndId": "E23114447202504081251lJO202G3Pi4"
+                    }
+                ],
+                "legacyReconciliationIdentifier": "78739695840"
+            }
+        },
+        {
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "transactionId": "CF7270DF-B4FA-CFE8-D50C-AB1BCCA63F61",
+            "transactionType": "Internal_Transfer_Sent",
+            "transactionStatus": "APPROVED",
+            "totalAmount": 10.02,
+            "counterPart": {
+                "status": "INACTIVE",
+                "accountHolderId": "ED671311-A494-40F4-A9C3-C6AA6CCA9E7E",
+                "taxIdentifier": {
+                    "taxId": "12667919000112",
+                    "country": "BRA"
+                },
+                "mobilePhones": [
+                    {
+                        "country": "BRA",
+                        "phoneNumber": "1181872632"
+                    }
+                ],
+                "email": "ricardo.barboza@renovacambio.com.br",
+                "mailAddress": {
+                    "logradouro": "AV QUEIROZ FILHO",
+                    "numero": "1560",
+                    "complemento": "CONJ 114",
+                    "bairro": "VILA HAMBURGUESA",
+                    "cidade": "SAO PAULO",
+                    "estado": "SP",
+                    "cep": "5319000",
+                    "pais": "BRA"
+                },
+                "name": "TE ENVIEI INTERMEDIACAO DE NEGOCIOS LTDA",
+                "representativeId": "B90F05B1-7BB8-4B16-8C7E-6EE926DC86D7",
+                "representatives": [
+                    {
+                        "name": "Representante Te Enviei",
+                        "taxIdentifier": {
+                            "taxId": "51329608046",
+                            "country": "BRA"
+                        }
+                    }
+                ]
+            },
+            "transactionDate": "2025-04-01T09:21:47.296-03:00"
+        },
+        {
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "transactionId": "0195f141-3840-b33c-5ac3-40ff6fed4dc1",
+            "endToEndId": "E23114447202504011208gScgP80Yjb5",
+            "transactionType": "DepositInstantPayment",
+            "transactionStatus": "APPROVED",
+            "totalAmount": 15,
+            "currentAmount": 15,
+            "counterPart": {
+                "name": "CONTA DE PAGAMENTO DE PIX"
+            },
+            "transactionDate": "2025-04-01T09:08:58.171-03:00",
+            "instantPayment": {
+                "sender": {
+                    "name": "CONTA DE PAGAMENTO DE PIX",
+                    "taxIdentifier": {
+                        "taxId": "74866698000169",
+                        "country": "BRA",
+                        "taxIdMasked": "74.***.***/****-69"
+                    },
+                    "account": {
+                        "branch": "1",
+                        "account": "12920",
+                        "accountType": "IP"
+                    },
+                    "psp": {
+                        "id": "23114447",
+                        "name": "FLAGSHIP IP LTDA",
+                        "country": "BRA"
+                    }
+                },
+                "recipient": {
+                    "alias": "a878f879-8acf-4d08-a8b4-c1bb640c9596",
+                    "name": "Jyoti Kumari",
+                    "taxIdentifier": {
+                        "taxId": "78739695840",
+                        "country": "BRA",
+                        "taxIdMasked": "***.396.958-**"
+                    },
+                    "account": {
+                        "branch": "272",
+                        "account": "475041",
+                        "accountType": "IP"
+                    },
+                    "psp": {
+                        "id": "23114447",
+                        "name": "FLAGSHIP IP LTDA",
+                        "country": "BRA"
+                    }
+                },
+                "endToEndId": "E23114447202504011208gScgP80Yjb5",
+                "paymentReceived": [
+                    {
+                        "sender": {
+                            "name": "CONTA DE PAGAMENTO DE PIX",
+                            "taxIdentifier": {
+                                "taxId": "74866698000169",
+                                "country": "BRA",
+                                "taxIdMasked": "74.***.***/****-69"
+                            },
+                            "account": {
+                                "branch": "1",
+                                "account": "12920",
+                                "accountType": "IP"
+                            },
+                            "psp": {
+                                "id": "23114447",
+                                "name": "FLAGSHIP IP LTDA",
+                                "country": "BRA",
+                                "currencies": [
+                                    "BRL"
+                                ]
+                            }
+                        },
+                        "transactionTimestamp": "1743509338171",
+                        "legacyTransactionId": "0195f141-3840-b33c-5ac3-40ff6fed4dc1",
+                        "endToEndId": "E23114447202504011208gScgP80Yjb5"
+                    }
+                ],
+                "legacyReconciliationIdentifier": "78739695840"
+            }
+        },
+        {
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "transactionType": "AccountCreated",
+            "transactionDate": "2025-03-25T17:41:08.805-03:00"
+        },
+        {
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "transactionType": "RequestAccountCreation",
+            "transactionDate": "2025-03-25T17:41:08.133-03:00"
+        }
+    ],
+    "GatewayCisResponse": {
+        "Envelope": {
+            "Body": {
+                "h2h-das-reply": {
+                    "MTML": {
+                        "REPLY": {
+                            "DATA_CONTEXT": {
+                                "HEADER": {
+                                    "ACCOUNT_NUM": "APH005229",
+                                    "DATA_MORE": "N",
+                                    "DATA_NUM_RECS": "0",
+                                    "ERROR_MSG": "D0004 NO MATCHING RECORDS FOUND",
+                                    "NAME": "GetTransactionHistory",
+                                    "FSID": "WGR3MT9510P",
+                                    "COUNTER_ID": "MT951WBP001A",
+                                    "TERM_ID": "eTT3"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+spring response
+{
+    "transactionsDetails": [
+        {
+            "transactionId": "01961575-0e15-2cbf-34ea-76f6472c110d",
+            "transactionDate": "2025-04-08T09:51:54.978-03:00",
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "counterPart": {
+                "name": "CONTA DE PAGAMENTO DE PIX"
+            },
+            "transactionType": "DepositInstantPayment",
+            "transactionStatus": "APPROVED",
+            "totalAmount": 12
+        },
+        {
+            "transactionId": "CF7270DF-B4FA-CFE8-D50C-AB1BCCA63F61",
+            "transactionDate": "2025-04-01T09:21:47.296-03:00",
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "counterPart": {
+                "name": "TE ENVIEI INTERMEDIACAO DE NEGOCIOS LTDA",
+                "taxIdentifier": {
+                    "taxId": "12667919000112",
+                    "country": "BRA"
+                },
+                "status": "INACTIVE",
+                "accountHolderId": "ED671311-A494-40F4-A9C3-C6AA6CCA9E7E",
+                "mobilePhones": [
+                    {
+                        "country": "BRA",
+                        "phoneNumber": "1181872632"
+                    }
+                ],
+                "email": "ricardo.barboza@renovacambio.com.br",
+                "mailAddress": {
+                    "logradouro": "AV QUEIROZ FILHO",
+                    "numero": "1560",
+                    "bairro": "VILA HAMBURGUESA",
+                    "cidade": "SAO PAULO",
+                    "estado": "SP",
+                    "cep": "5319000",
+                    "pais": "BRA"
+                },
+                "representatives": [
+                    {}
+                ]
+            },
+            "transactionType": "Internal_Transfer_Sent",
+            "transactionStatus": "APPROVED",
+            "totalAmount": 10.02
+        },
+        {
+            "transactionId": "0195f141-3840-b33c-5ac3-40ff6fed4dc1",
+            "transactionDate": "2025-04-01T09:08:58.171-03:00",
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "counterPart": {
+                "name": "CONTA DE PAGAMENTO DE PIX"
+            },
+            "transactionType": "DepositInstantPayment",
+            "transactionStatus": "APPROVED",
+            "totalAmount": 15
+        },
+        {
+            "transactionDate": "2025-03-25T17:41:08.805-03:00",
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "transactionType": "AccountCreated"
+        },
+        {
+            "transactionDate": "2025-03-25T17:41:08.133-03:00",
+            "accountHolderId": "AD0618BC-FDDD-26E5-EE09-6328DA0E294F",
+            "accountId": "44805685-981A-CB73-581D-567C4FA0961E",
+            "transactionType": "RequestAccountCreation"
+        },
+        [
+            {
+                "Body": {
+                    "h2h-das-reply": {
+                        "MTML": {
+                            "REPLY": {
+                                "HOST": "AUHOST",
+                                "CLIENT": "WUCLIENT",
+                                "TYPE": "",
+                                "DATA_CONTEXT": {
+                                    "HEADER": {
+                                        "ACCOUNT_NUM": "APH005229",
+                                        "DATA_MORE": "N",
+                                        "DATA_NUM_RECS": "0",
+                                        "ERROR_MSG": "D0004 NO MATCHING RECORDS FOUND",
+                                        "NAME": "GetTransactionHistory",
+                                        "FSID": "WGR3MT9510P",
+                                        "COUNTER_ID": "MT951WBP001A",
+                                        "TERM_ID": "eTT3"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    ]
+}
