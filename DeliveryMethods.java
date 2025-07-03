@@ -7,7 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public  class MobilePhone {
-    private String contactPhoneCountryPrefix;
-    private String contactPhone;
+public  class DeliveryMethods {
+    private String otpType;
+    private EmailDelivery emailDelivery;
+    private SmsDelivery smsDelivery;
 }
+

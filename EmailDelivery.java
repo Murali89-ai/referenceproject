@@ -5,9 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public  class MobilePhone {
-    private String contactPhoneCountryPrefix;
-    private String contactPhone;
+@NoArgsConstructor
+public class EmailDelivery {
+  private String  available;
+  private String email;
 }

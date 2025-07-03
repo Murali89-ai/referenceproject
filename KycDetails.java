@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public  class MobilePhone {
-    private String contactPhoneCountryPrefix;
-    private String contactPhone;
+public  class KycDetails {
+    private Pbv pbv;
 }
