@@ -7,11 +7,8 @@ import lombok.Data;
 
 @Data
 @XmlAccessorType(XmlAccessType.FIELD)
-public class ErrorReply {
+public class Detail {
 
-    @XmlElement(name = "error")
-    private String error;
-
-    @XmlElement(name = "PartnerID")
-    private String partnerId;
+    @XmlElement(name = "error-reply", namespace = "http://www.westernunion.com/schema/xrsi")
+    private ErrorReply errorReply;
 }

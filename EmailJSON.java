@@ -1,12 +1,12 @@
-package com.wu.brwallet.customer.profile.model.response.ping.create;
+package com.wu.brwallet.customer.profile.model.response.ping.get;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class Email {
+public class EmailJSON {
     private String type;
     private String value;
-    private boolean verified;
+    private Boolean verified;
 }

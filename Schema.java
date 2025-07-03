@@ -5,8 +5,6 @@ import lombok.Data;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class Email {
-    private String type;
-    private String value;
-    private boolean verified;
+public class Schema {
+    private String href;
 }
