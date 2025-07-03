@@ -1,6 +1,6 @@
 /*
- * ucd_cregn_v1_api
- * Swagger documentation for UCD Customer Registration Service API
+ * ucd_pmgmt_v1_api
+ * Swagger documentation for UCD Profile Management Service API
  *
  * The version of the OpenAPI document: 1.0.1
  * Contact: UCDWSDevTeam@westernunion.com
@@ -11,7 +11,7 @@
  */
 
 
-package com.wu.brwallet.customer.profile.model.common.ucd.customerregistration;
+package com.wu.brwallet.customer.profile.model.common.ucd.profilemanagement;
 
 import java.util.Objects;
 import java.util.Arrays;
@@ -47,12 +47,12 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import com.wu.brwallet.customer.profile.model.common.ucd.customerregistration.JSON;
+import com.wu.brwallet.customer.profile.model.common.ucd.profilemanagement.JSON;
 
 /**
  * Audit Info like Created By, Updated By, Deleted By etc.
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-03-17T20:58:59.701576900+05:30[Asia/Calcutta]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-03-17T21:22:09.739306500+05:30[Asia/Calcutta]")
 public class AuditInfo {
   public static final String SERIALIZED_NAME_CREATED_BY = "createdBy";
   @SerializedName(SERIALIZED_NAME_CREATED_BY)

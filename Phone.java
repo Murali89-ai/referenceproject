@@ -1,6 +1,6 @@
 /*
- * ucd_cregn_v1_api
- * Swagger documentation for UCD Customer Registration Service API
+ * ucd_pmgmt_v1_api
+ * Swagger documentation for UCD Profile Management Service API
  *
  * The version of the OpenAPI document: 1.0.1
  * Contact: UCDWSDevTeam@westernunion.com
@@ -11,7 +11,7 @@
  */
 
 
-package com.wu.brwallet.customer.profile.model.common.ucd.customerregistration;
+package com.wu.brwallet.customer.profile.model.common.ucd.profilemanagement;
 
 import java.util.Objects;
 import java.util.Arrays;
@@ -47,12 +47,12 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import com.wu.brwallet.customer.profile.model.common.ucd.customerregistration.JSON;
+import com.wu.brwallet.customer.profile.model.common.ucd.profilemanagement.JSON;
 
 /**
  * Phone
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-03-17T20:58:59.701576900+05:30[Asia/Calcutta]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-03-17T21:22:09.739306500+05:30[Asia/Calcutta]")
 public class Phone {
   /**
    * Phone Type Values  * 1 Home * 2 Notification Mobile Phone * 3 Work * 4 Alternate Phone * 5 Other Mobile Number * 6 Fax * 99 PhoneTypeOther  **The below table defines the mapping between PhoneType &amp; PhoneSeq** | Phone Type       | Phone Seq   | Remarks                            | | ---------------- | ------------| -----------------------------------| | 1                | 1           | Primary Phone                      | | 2                | 4           | Mobile Phone                       | | 3                | 3           | Work Phone                         | | 4                | 2           | Alternate Phone                    | | 5                | 5           | Other Mobile Phone                 | | 6                | 6           | Fax                                | 
@@ -152,7 +152,6 @@ public class Phone {
    */
   @JsonAdapter(PhoneVvStatusEnum.Adapter.class)
   public enum PhoneVvStatusEnum {
-    Y("Y"),
     L("L"),
     
     M("M"),
@@ -178,8 +177,6 @@ public class Phone {
     C("C"),
     
     D("D");
-
-
 
     private String value;
 

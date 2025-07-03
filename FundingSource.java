@@ -1,6 +1,6 @@
 /*
- * ucd_cregn_v1_api
- * Swagger documentation for UCD Customer Registration Service API
+ * ucd_pmgmt_v1_api
+ * Swagger documentation for UCD Profile Management Service API
  *
  * The version of the OpenAPI document: 1.0.1
  * Contact: UCDWSDevTeam@westernunion.com
@@ -11,7 +11,7 @@
  */
 
 
-package com.wu.brwallet.customer.profile.model.common.ucd.customerregistration;
+package com.wu.brwallet.customer.profile.model.common.ucd.profilemanagement;
 
 import java.util.Objects;
 import java.util.Arrays;
@@ -23,7 +23,7 @@ import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.OffsetDateTime;
-import com.wu.brwallet.customer.profile.model.common.ucd.customerregistration.Address;
+import com.wu.brwallet.customer.profile.model.common.ucd.profilemanagement.Address;
 import org.openapitools.jackson.nullable.JsonNullable;
 
 import com.google.gson.Gson;
@@ -49,12 +49,12 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import com.wu.brwallet.customer.profile.model.common.ucd.customerregistration.JSON;
+import com.wu.brwallet.customer.profile.model.common.ucd.profilemanagement.JSON;
 
 /**
  * FundingSource
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-03-17T20:58:59.701576900+05:30[Asia/Calcutta]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-03-17T21:22:09.739306500+05:30[Asia/Calcutta]")
 public class FundingSource {
   public static final String SERIALIZED_NAME_FUNDING_SEQ_INDEX = "fundingSeqIndex";
   @SerializedName(SERIALIZED_NAME_FUNDING_SEQ_INDEX)
@@ -343,7 +343,7 @@ public class FundingSource {
 
   public static final String SERIALIZED_NAME_CARD_CONSENT_DATE = "cardConsentDate";
   @SerializedName(SERIALIZED_NAME_CARD_CONSENT_DATE)
-  private String cardConsentDate;
+  private OffsetDateTime cardConsentDate;
 
   public static final String SERIALIZED_NAME_CARD_CONSENT_MTCN = "cardConsentMtcn";
   @SerializedName(SERIALIZED_NAME_CARD_CONSENT_MTCN)
@@ -351,7 +351,7 @@ public class FundingSource {
 
   public static final String SERIALIZED_NAME_CARD_CONSENT_TRANSACTION_DATE = "cardConsentTransactionDate";
   @SerializedName(SERIALIZED_NAME_CARD_CONSENT_TRANSACTION_DATE)
-  private String cardConsentTransactionDate;
+  private OffsetDateTime cardConsentTransactionDate;
 
   public static final String SERIALIZED_NAME_BILLING_ADDRESS_SEARCH_JSON = "billingAddressSearchJson";
   @SerializedName(SERIALIZED_NAME_BILLING_ADDRESS_SEARCH_JSON)
@@ -1489,7 +1489,7 @@ public class FundingSource {
   }
 
 
-  public FundingSource cardConsentDate(String cardConsentDate) {
+  public FundingSource cardConsentDate(OffsetDateTime cardConsentDate) {
     
     this.cardConsentDate = cardConsentDate;
     return this;
@@ -1500,12 +1500,12 @@ public class FundingSource {
    * @return cardConsentDate
   **/
   @javax.annotation.Nullable
-  public String getCardConsentDate() {
+  public OffsetDateTime getCardConsentDate() {
     return cardConsentDate;
   }
 
 
-  public void setCardConsentDate(String cardConsentDate) {
+  public void setCardConsentDate(OffsetDateTime cardConsentDate) {
     this.cardConsentDate = cardConsentDate;
   }
 
@@ -1531,7 +1531,7 @@ public class FundingSource {
   }
 
 
-  public FundingSource cardConsentTransactionDate(String cardConsentTransactionDate) {
+  public FundingSource cardConsentTransactionDate(OffsetDateTime cardConsentTransactionDate) {
     
     this.cardConsentTransactionDate = cardConsentTransactionDate;
     return this;
@@ -1542,12 +1542,12 @@ public class FundingSource {
    * @return cardConsentTransactionDate
   **/
   @javax.annotation.Nullable
-  public String getCardConsentTransactionDate() {
+  public OffsetDateTime getCardConsentTransactionDate() {
     return cardConsentTransactionDate;
   }
 
 
-  public void setCardConsentTransactionDate(String cardConsentTransactionDate) {
+  public void setCardConsentTransactionDate(OffsetDateTime cardConsentTransactionDate) {
     this.cardConsentTransactionDate = cardConsentTransactionDate;
   }
 
